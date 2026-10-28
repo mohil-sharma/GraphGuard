@@ -1,0 +1,8 @@
+{
+  "engine": "spark",
+  "raw_edges": 234355,
+  "kept_edges": 234355,
+  "nodes": 203769,
+  "dropped_edges": 0,
+  "spark_parquet_write": true
+}

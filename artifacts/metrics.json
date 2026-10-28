@@ -1,0 +1,27 @@
+{
+  "n_nodes": 203769,
+  "n_edges": 234355,
+  "n_labelled": 46564,
+  "illicit_share_labelled": 0.09760759384932566,
+  "split": "train steps 1-34, test steps 35-49",
+  "models": {
+    "random_forest_baseline": {
+      "precision": 0.92046783625731,
+      "recall": 0.7266851338873499,
+      "f1": 0.8121775025799793,
+      "seconds": 2.3547539710998535
+    },
+    "graphsage": {
+      "precision": 0.7151051625239006,
+      "recall": 0.6906740535549399,
+      "f1": 0.7026773132926256,
+      "seconds": 118.7627489566803
+    },
+    "gcn": {
+      "precision": 0.5140949554896143,
+      "recall": 0.6398891966759003,
+      "f1": 0.5701357466063348,
+      "seconds": 121.61990880966187
+    }
+  }
+}

@@ -1,0 +1,18 @@
+# Environments & tools
+.venv/
+.tools/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Raw dataset (large CSVs > 600MB)
+data/lake/raw/
+*.csv
+
+# Spark temporary directories
+*_spark/
+
+# System and editor files
+.DS_Store
+desktop.ini
